@@ -15,7 +15,7 @@ public class Demo2Activity extends Activity {
 
         Intent intent = new Intent(this, Demo2_1Activity.class);
 
-        intent.putExtra("", "");
+        intent.putExtra("Message", "this is Demo2Activity");
 
         startActivity(intent);
     }
