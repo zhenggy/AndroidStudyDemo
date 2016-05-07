@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StudyDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_demo1">Demo1Activity</string>
+    <string name="title_activity_demo2">Demo2Activity</string>
+    <string name="title_activity_demo2_1">Demo2_1Activity</string>
+    <string name="title_activity_demo2_2">Demo2_2Activity</string>
+</resources>
