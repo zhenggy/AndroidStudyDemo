@@ -7,4 +7,8 @@
     <string name="title_activity_demo2">Demo2Activity</string>
     <string name="title_activity_demo2_1">Demo2_1Activity</string>
     <string name="title_activity_demo2_2">Demo2_2Activity</string>
+    <string name="title_activity_demo3">Demo3Activity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
