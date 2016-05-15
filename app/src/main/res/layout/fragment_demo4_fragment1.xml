@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c72108"
+    tools:context="com.ashzheng.studydemo.demo4.Demo4Fragment1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ashzheng.studydemo.demo4.Demo4Activity">
+
+    <FrameLayout
+        android:id="@+id/demo4_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/demo4_rg"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#54caee"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/demo4_rbt1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="第一个" />
+
+        <RadioButton
+            android:id="@+id/demo4_rbt2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="第二个" />
+
+        <RadioButton
+            android:id="@+id/demo4_rbt3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="第三个" />
+
+        <RadioButton
+            android:id="@+id/demo4_rbt4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="第四个" />
+    </RadioGroup>
+
+
+</LinearLayout>

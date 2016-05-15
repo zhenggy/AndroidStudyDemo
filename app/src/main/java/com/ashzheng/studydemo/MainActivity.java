@@ -12,6 +12,7 @@ import android.widget.ListView;
 import com.ashzheng.studydemo.demo1.Demo1Activity;
 import com.ashzheng.studydemo.demo2.Demo2Activity;
 import com.ashzheng.studydemo.demo3.Demo3Activity;
+import com.ashzheng.studydemo.demo4.Demo4Activity;
 
 import java.util.ArrayList;
 
@@ -45,6 +46,10 @@ public class MainActivity extends Activity {
                         Intent intent3 = new Intent(MainActivity.this, Demo3Activity.class);
                         startActivity(intent3);
                         break;
+                    case 3:
+                        Intent intent4 = new Intent(MainActivity.this, Demo4Activity.class);
+                        startActivity(intent4);
+                        break;
                 }
             }
         });
@@ -56,5 +61,6 @@ public class MainActivity extends Activity {
         dataList.add("Activity生命周期");
         dataList.add("Activity与Activity间的通信");
         dataList.add("Fragment基本用法");
+        dataList.add("Fragment实现选项卡");
     }
 }
