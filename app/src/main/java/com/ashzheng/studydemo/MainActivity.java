@@ -13,6 +13,7 @@ import com.ashzheng.studydemo.demo1.Demo1Activity;
 import com.ashzheng.studydemo.demo2.Demo2Activity;
 import com.ashzheng.studydemo.demo3.Demo3Activity;
 import com.ashzheng.studydemo.demo4.Demo4Activity;
+import com.ashzheng.studydemo.demo5.Demo5Activity;
 
 import java.util.ArrayList;
 
@@ -50,6 +51,10 @@ public class MainActivity extends Activity {
                         Intent intent4 = new Intent(MainActivity.this, Demo4Activity.class);
                         startActivity(intent4);
                         break;
+                    case 4:
+                        Intent intent5 = new Intent(MainActivity.this, Demo5Activity.class);
+                        startActivity(intent5);
+                        break;
                 }
             }
         });
@@ -62,5 +67,6 @@ public class MainActivity extends Activity {
         dataList.add("Activity与Activity间的通信");
         dataList.add("Fragment基本用法");
         dataList.add("Fragment实现选项卡");
+        dataList.add("Android网络编程");
     }
 }
