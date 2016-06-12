@@ -14,6 +14,8 @@ import com.ashzheng.studydemo.demo2.Demo2Activity;
 import com.ashzheng.studydemo.demo3.Demo3Activity;
 import com.ashzheng.studydemo.demo4.Demo4Activity;
 import com.ashzheng.studydemo.demo5.Demo5Activity;
+import com.ashzheng.studydemo.demo6.Demo6Activity;
+import com.ashzheng.studydemo.demo7.Demo7Activity;
 
 import java.util.ArrayList;
 
@@ -55,6 +57,14 @@ public class MainActivity extends Activity {
                         Intent intent5 = new Intent(MainActivity.this, Demo5Activity.class);
                         startActivity(intent5);
                         break;
+                    case 5:
+                        Intent intent6 = new Intent(MainActivity.this, Demo6Activity.class);
+                        startActivity(intent6);
+                        break;
+                    case 6:
+                        Intent intent7 = new Intent(MainActivity.this, Demo7Activity.class);
+                        startActivity(intent7);
+                        break;
                 }
             }
         });
@@ -68,5 +78,7 @@ public class MainActivity extends Activity {
         dataList.add("Fragment基本用法");
         dataList.add("Fragment实现选项卡");
         dataList.add("Android网络编程");
+        dataList.add("跟随手指的小球");
+        dataList.add("获取相册和拍照的图片");
     }
 }
